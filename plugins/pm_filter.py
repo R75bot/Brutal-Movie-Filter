@@ -787,7 +787,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                       InlineKeyboardButton('💰 ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ 💎', callback_data='premium'),
                   ],[
                       InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data='earn')
-                 ]]
+                  ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, get_status(), query.from_user.id),
@@ -855,7 +855,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 			InlineKeyboardButton('🦋 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ',url="https://t.me/MisterBrutal")
 		],[
                        InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start')]
-	    )
+	    ),
             disable_web_page_preview = True
         )
     elif query.data == "earn":
