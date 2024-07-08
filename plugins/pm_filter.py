@@ -785,7 +785,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	],
         [
             InlineKeyboardButton('🎖️ ʏᴏᴜʀ ᴘᴏɪɴᴛs 🎖️', callback_data=f'point#{query.from_user.id}'),
-            InlineKeyboardButton('🎗️ ᴘʀᴇᴍɪᴜᴍ', callback_data='premium')
+            InlineKeyboardButton('💰 ᴘʀᴇᴍɪᴜᴍ 💎', callback_data='premium')
         ],
         [
             InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data='earn')
