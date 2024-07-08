@@ -1,8 +1,8 @@
 class script(object):
     START_TXT = """<b> Wʜᴀᴛ's Uᴘ Bᴀʙʏɢɪʀʟ {} {},
-    I AM Tʜᴇ Bᴇsᴛ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ Wɪᴛʜ Aʟʟ Lᴀᴛᴇsᴛ Fᴇᴀᴛᴜʀᴇs \n
-I Cᴀɴ Pʀᴏᴠɪᴅᴇ Aɴʏ Mᴏᴠɪᴇs Sᴇʀɪᴇs Oʀ Aɴɪᴍᴇ Jᴜsᴛ Sᴇɴᴅ Mᴇ Nᴀᴍᴇ Oғ Yᴏᴜʀ Dᴇsɪʀᴇᴅ Mᴏᴠɪᴇ/Sᴇʀɪᴇs
-<blockquote>Cʟɪᴄᴋ Oɴ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs Tᴏ Kɴᴏᴡ Mᴏʀᴇ</blockquote>
+    I AM Tʜᴇ Bᴇsᴛ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ Wɪᴛʜ Aʟʟ Lᴀᴛᴇsᴛ Fᴇᴀᴛᴜʀᴇs \n\n
+I Cᴀɴ Pʀᴏᴠɪᴅᴇ Aɴʏ Mᴏᴠɪᴇs Sᴇʀɪᴇs Oʀ Aɴɪᴍᴇ Jᴜsᴛ Sᴇɴᴅ Mᴇ Nᴀᴍᴇ Oғ Yᴏᴜʀ Dᴇsɪʀᴇᴅ Mᴏᴠɪᴇ/Sᴇʀɪᴇs\n
+<blockquote>Cʟɪᴄᴋ Oɴ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs Tᴏ Kɴᴏᴡ Mᴏʀᴇ 👇</blockquote>
 
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/Ig_1Venom'>Venom 😎</a>
 </b>"""
