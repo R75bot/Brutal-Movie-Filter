@@ -778,17 +778,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "start":
         buttons = [[
-                            InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
-                            ],[
-                            InlineKeyboardButton('⚙ ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
-                            InlineKeyboardButton('🌹 ᴀʙᴏᴜᴛ ', callback_data='about')
-                            ],
+                      InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                  ],[
+                      InlineKeyboardButton('⚙ ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
+                      InlineKeyboardButton('🌹 ᴀʙᴏᴜᴛ ', callback_data='about')
+                  ],
                             [
-                            InlineKeyboardButton('🎖️ʏᴏᴜʀ ᴘᴏɪɴᴛs 🎖️', callback_data=f'point#{message.from_user.id}'),
-                            InlineKeyboardButton('💰 ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ 💎', callback_data='premium'),
+                      InlineKeyboardButton('🎖️ʏᴏᴜʀ ᴘᴏɪɴᴛs 🎖️', callback_data=f'point#{message.from_user.id}'),
+                      InlineKeyboardButton('💰 ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ 💎', callback_data='premium'),
                             ],
-                            [
-                            InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data='earn')
+                  [
+                      InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data='earn')
                             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -857,7 +857,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 			InlineKeyboardButton('🦋 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ',url="https://t.me/MisterBrutal")
 		],[
                        InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start')]
-                ),
+	    )
             disable_web_page_preview = True
         )
     elif query.data == "earn":
