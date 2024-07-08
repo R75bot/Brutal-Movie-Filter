@@ -778,21 +778,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
-        ],[
-            InlineKeyboardButton('⚙ ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
-            InlineKeyboardButton('🎗️ ᴘʀᴇᴍɪᴜᴍ', callback_data='premium'),
-        ],
-        [
-            InlineKeyboardButton('🎁 ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ғʀᴇᴇ 🎁', callback_data=f'free_premium#{query.from_user.id}')
-        ],
-        [
-            InlineKeyboardButton('🎭 ʏᴏᴜʀ ᴘᴏɪɴᴛs ✨', callback_data=f'point#{query.from_user.id}'),
-            InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ 🚩', callback_data=f'about')
-        ],
-        [
-            InlineKeyboardButton('🤞🏻 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 🤡', callback_data='earn')
-        ]]    
+                            InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+                            ],[
+                            InlineKeyboardButton('⚙ ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
+                            InlineKeyboardButton('🌹 ᴀʙᴏᴜᴛ ', callback_data='about')
+                            ],
+                            [
+                            InlineKeyboardButton('🎖️ʏᴏᴜʀ ᴘᴏɪɴᴛs 🎖️', callback_data=f'point#{message.from_user.id}'),
+                            InlineKeyboardButton('💰 ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ 💎', callback_data='premium'),
+                            ],
+                            [
+                            InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data='earn')
+                            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, get_status(), query.from_user.id),
@@ -808,7 +805,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           InlineKeyboardButton('🔐 ғsᴜʙ', callback_data='fsub'),
           InlineKeyboardButton('🗣️ ᴀɪ ᴛᴛs', callback_data='tts')],[
         InlineKeyboardButton('ᴀᴅᴍɪɴ ᴄᴍᴅ', callback_data='admincmd'),
-	    InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='start')
+	    InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(                     
@@ -853,14 +850,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             script.ABOUT_TEXT.format(query.from_user.mention(),temp.B_LINK),
             reply_markup = InlineKeyboardMarkup(
-                [[InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='start')]]
+                [
+			InlineKeyboardButton('🌿 Jᴏɪɴ Bᴏᴛs Cʜᴀɴɴᴇʟ 🌿',url="https://t.me/MisterBrutal")
+		],[
+			InlineKeyboardButton('🔥 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ',url="https://t.me/MisterBrutal"),
+			InlineKeyboardButton('🦋 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ',url="https://t.me/MisterBrutal")
+		],[
+                       InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start')]
                 ),
             disable_web_page_preview = True
         )
     elif query.data == "earn":
         buttons = [[
-            InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', user_id = ADMINS[0] ),
+            InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('🦋 sᴜᴘᴘᴏʀᴛ', url="https://t.me/Geeky_Support" ),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -924,7 +927,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data.startswith("reset_grp_data"):
         grp_id = query.message.chat.id
         btn = [[
-            InlineKeyboardButton('☕️ ᴄʟᴏsᴇ ☕️', callback_data='close_data')
+            InlineKeyboardButton('❗ ᴄʟᴏsᴇ ❗', callback_data='close_data')
         ]]           
         reply_markup=InlineKeyboardMarkup(btn)
         await save_group_settings(grp_id, 'shortner', SHORTENER_WEBSITE)
