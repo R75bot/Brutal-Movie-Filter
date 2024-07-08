@@ -782,14 +782,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                   ],[
                       InlineKeyboardButton('⚙ ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
                       InlineKeyboardButton('🌹 ᴀʙᴏᴜᴛ ', callback_data='about')
-                  ],
-                            [
+                  ],[
                       InlineKeyboardButton('🎖️ʏᴏᴜʀ ᴘᴏɪɴᴛs 🎖️', callback_data=f'point#{message.from_user.id}'),
                       InlineKeyboardButton('💰 ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ 💎', callback_data='premium'),
-                            ],
-                  [
+                  ],[
                       InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data='earn')
-                            ]]
+                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, get_status(), query.from_user.id),
