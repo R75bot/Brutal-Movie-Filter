@@ -94,7 +94,7 @@ User - {}"""
     REQUEST_TXT = """<b>📜 ᴜꜱᴇʀ - {}
 📇 ɪᴅ - <code>{}</code>
 
-🎁 ʀᴇǫᴜᴇꜱᴛ ᴍꜱɢ - <code>{}</code></b>"""  
+📝 ʀᴇǫᴜᴇꜱᴛ ᴍꜱɢ - <code>{}</code></b>"""  
     
     IMDB_TEMPLATE_TXT = """<b>📻 ᴛɪᴛʟᴇ - <a href={url}>{title}</a>
 🎭 ɢᴇɴʀᴇs - {genres}
@@ -236,18 +236,18 @@ Yᴏᴜʀ <u>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</u> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠ�
 
     VERIFIED_LOG_TEXT = """<b><u>☄ ᴜsᴇʀ ᴠᴇʀɪꜰɪᴇᴅ sᴜᴄᴄᴇssꜰᴜʟʟʏ ☄</u>
 
-⚡️ ɴᴀᴍᴇ:- {} [ <code>{}</code> ] 
+😘 ɴᴀᴍᴇ:- {} [ <code>{}</code> ] 
 📆 ᴅᴀᴛᴇ:- <code>{} </code></b>
 
 #verified_{}_completed"""
 
     MOVIES_UPDATE_TXT = """<b>#New_File_Added
 
-Title: {title}
-Rating: {rating}
-Genre: {genres}
+🎫 Tɪᴛʟᴇ: {title}
+🎖️ Rᴀᴛɪɴɢ: {rating}
+🎭 Gᴇɴʀᴇ: {genres}
 
-Description: {description}
+📝 Description: {description}
 
-{file_name}
+❗Fɪʟᴇ Nᴀᴍᴇ: {file_name}
 </b>"""
