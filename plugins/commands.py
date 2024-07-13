@@ -856,3 +856,17 @@ async def set_time_3(client, message):
         return await message.reply_text("Command Incomplete!")   
     await save_group_settings(grp_id, 'third_verify_time', time)
     await message.reply_text(f"Successfully set 1st verify time for {title}\n\nTime is - <code>{time}</code>")
+
+@Client.on_message(filters.command("donate") & filters.private & filters.user(ADMINS))
+async def Donate(client, message):
+    await message.reply_photo(
+        photo=PAYMENT_QR,
+        caption=script.DONATE_TXT
+        )
+
+@Client.on_message(filters.command("group_rules") & filters.private & filters.user(ADMINS))
+async def Group_Rules(client, message):
+    await message.reply_text(
+        text=script.GROUP_RULES
+    )
+    
