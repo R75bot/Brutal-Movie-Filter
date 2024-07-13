@@ -63,9 +63,9 @@ REF_PREMIUM = 10
 PREMIUM_POINT = 1000
 
 #Fill Your Channel IDs 
-auth_channel = environ.get('AUTH_CHANNEL', '-1002127813360') #Your Force Subscribe channel Id 
+auth_channel = environ.get('AUTH_CHANNEL', '-1002013750265') #Your Force Subscribe channel Id 
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002162784767'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002130344978'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002106345803') #Requested Content Channel Id
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002236540396')) #Payment Screenshot Sending Channel 
