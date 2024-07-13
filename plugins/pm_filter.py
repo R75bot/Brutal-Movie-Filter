@@ -386,8 +386,8 @@ async def year_search(client: Client, query: CallbackQuery):
                    for file in files
               ]
         
-   btn.insert(0,
-       [InlineKeyboardButton("♻️ sᴇɴᴅ ᴀʟʟ", callback_data=batch_link),
+    btn.insert(0, [
+        InlineKeyboardButton("♻️ sᴇɴᴅ ᴀʟʟ", callback_data=batch_link),
         InlineKeyboardButton("🎭 ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#{offset}#{req}"),
         ])
     btn.insert(1, [
