@@ -289,7 +289,7 @@ async def season_search(client: Client, query: CallbackQuery):
         InlineKeyboardButton("♻️ sᴇɴᴅ ᴀʟʟ", callback_data=batch_link),
         InlineKeyboardButton("🎭 ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#{offset}#{req}"),
         ])
-	    btn.insert(1, [
+    btn.insert(1, [
         InlineKeyboardButton(" ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
         InlineKeyboardButton(" ʏᴇᴀʀ ", callback_data=f"years#{key}#{offset}#{req}"),
         InlineKeyboardButton(" ꜱᴇᴀꜱᴏɴ ", callback_data=f"seasons#{key}#{offset}#{req}"),
