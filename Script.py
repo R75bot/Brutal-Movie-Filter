@@ -102,7 +102,7 @@ User - {}"""
 ❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}</b>
 """
 
-    FILE_CAPTION = """<a href='https://t.me/MisterBrutal'><b>ɴᴀᴍᴇ : {file_name} </a>\n Jᴏɪɴ Hᴇʀᴇ Fᴏʀ Uᴘᴅᴀᴛᴇs:\n https://t.me/Geeky_Updates\n https://t.me/Geeky_Updates</b>"""
+    FILE_CAPTION = """<a href='https://t.me/MisterBrutal'><b>ɴᴀᴍᴇ : {file_name} </a>\n\n Jᴏɪɴ Hᴇʀᴇ Fᴏʀ Uᴘᴅᴀᴛᴇs:\n https://t.me/Geeky_Updates\n https://t.me/Geeky_Updates</b>"""
 
     RESTART_TXT = """<b>
 📅 Dᴀᴛᴇ : <code>{}</code>
