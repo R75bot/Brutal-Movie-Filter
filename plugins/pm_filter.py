@@ -1319,14 +1319,14 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
         if total_results >= MAX_BTN:
             btn.insert(0,[
         InlineKeyboardButton("♻️ sᴇɴᴅ ᴀʟʟ", callback_data=batch_link),
-        InlineKeyboardButton("🎭 ʟᴀɴɢᴜᴀɢᴇ", callback_data=f"languages#{key}#{offset}#{req}"),
+        InlineKeyboardButton("🎭 ᴄʜᴏᴏsᴇ ʟᴀɴɢᴜᴀɢᴇ ✨", callback_data=f"languages#{key}#{offset}#{req}"),
         ])
-    btn.insert(1, [
-        InlineKeyboardButton(" ǫᴜᴀʟɪᴛʏ ", callback_data=f"qualities#{key}#{offset}#{req}"),
-        InlineKeyboardButton(" ʏᴇᴀʀ ", callback_data=f"years#{key}#{offset}#{req}"),
-        InlineKeyboardButton(" ꜱᴇᴀꜱᴏɴ ", callback_data=f"seasons#{key}#{offset}#{req}"),
-    ])
-	else:
+            btn.insert(1, [
+        InlineKeyboardButton("✨ ǫᴜᴀʟɪᴛʏ 🤡", callback_data=f"qualities#{key}#{offset}#{req}"),
+        InlineKeyboardButton("🚩 ʏᴇᴀʀ ⌛", callback_data=f"years#{key}#{offset}#{req}"),
+        InlineKeyboardButton("✨ ᴄʜᴏᴏsᴇ season🍿", callback_data=f"seasons#{key}#{offset}#{req}"),
+        ])
+        else:
             btn.insert(0,[
                 InlineKeyboardButton("♻️ sᴇɴᴅ ᴀʟʟ", callback_data=batch_link),
             ])
