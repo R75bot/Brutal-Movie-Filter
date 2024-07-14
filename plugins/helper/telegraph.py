@@ -8,11 +8,11 @@ from utils import get_file_id
 async def telegraph(bot, message):
     replied = message.reply_to_message
     if not replied:
-        await message.reply_text("⚠️ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ 5 ᴍʙ")
+        await message.reply_text("<b>⚠️ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ 5 ᴍʙ</b>")
         return
     file_info = get_file_id(replied)
     if not file_info:
-        await message.reply_text("ɴᴏᴛ sᴜᴘᴘᴏʀᴛᴇᴅ 😑")
+        await message.reply_text("<b>ɴᴏᴛ sᴜᴘᴘᴏʀᴛᴇᴅ 😑</b>")
         return
     msg = await message.reply_text(text="<code>ᴘʀᴏᴄᴇssɪɴɢ....</code>", disable_web_page_preview=True)   
     media = await message.reply_to_message.download()   
@@ -32,7 +32,7 @@ async def telegraph(bot, message):
     await msg.delete()
     await message.reply_photo(
         photo=f'https://graph.org{response[0]}',
-        caption=f"<b>ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴘʜ ʟɪɴᴋ ᴄᴏᴍᴘʟᴇᴛᴇᴅ 👇</b>\n\n<code>https://graph.org{response[0]}</code>\n\n<b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ - @bisal_files</b>",       
+        caption=f"<b>ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴘʜ ʟɪɴᴋ ᴄᴏᴍᴘʟᴇᴛᴇᴅ 👇</b>\n\n<code>https://graph.org{response[0]}</code>\n\n<b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ - @MisterBrutal</b>",       
         reply_markup=InlineKeyboardMarkup( [[
             InlineKeyboardButton(text="✓ ᴏᴘᴇɴ ʟɪɴᴋ ✓", url=f"https://graph.org{response[0]}"),
             InlineKeyboardButton(text="📱 sʜᴀʀᴇ ʟɪɴᴋ", url=f"https://telegram.me/share/url?url=https://graph.org{response[0]}")
