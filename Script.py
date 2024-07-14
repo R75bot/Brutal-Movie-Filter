@@ -2,8 +2,7 @@ class script(object):
     START_TXT = """<b> ᴡʜᴀᴛ'ꜱ ᴜᴘ {} {} \n
   ɪᴛ'ꜱ ʙᴀʙʏɢɪʀʟ ʜᴇʀᴇ, ᴛʜᴇ ʙᴇꜱᴛ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴀʟʟ ʟᴀᴛᴇꜱᴛ ꜰᴇᴀᴛᴜʀᴇꜱ. \n
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴀɴʏ ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ ᴏʀ ᴀɴɪᴍᴇ ᴡɪᴛʜɪɴ 1 ꜱᴇᴄᴏɴᴅ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴛʜᴇ ɴᴀᴍᴇ ᴏꜰ ʏᴏᴜʀ ᴅᴇꜱɪʀᴇᴅ ᴍᴏᴠɪᴇ ᴀɴᴅ ꜱᴇᴇ ᴍʏ ᴍᴀɢɪᴄ. \n
-<blockquote>ᴛᴏ ʀᴇᴀᴅ ᴍʏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅꜱ ᴄʟɪᴄᴋ ʜᴇʀᴇ.👇</blockquote>
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/Ig_1Venom'>Venom 😎</a>
+<blockquote>ᴛᴏ ʀᴇᴀᴅ ᴍʏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅꜱ ᴄʟɪᴄᴋ ʜᴇʀᴇ.</blockquote>
 </b>"""
     
     HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</b>"""
@@ -14,11 +13,11 @@ class script(object):
     FSUB_TXT = """<b>• ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ 😗
 • ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ᴛᴀʀɢᴇᴛ ғᴏʀᴄᴇ sᴜʙsᴄʀɪʙᴇ ᴄʜᴀɴɴᴇʟ ᴏʀ Gʀᴏᴜᴘ  😉
 • sᴇɴᴅ /fsub ʏᴏᴜʀ_ᴛᴀʀɢᴇᴛ_ᴄʜᴀᴛ_ɪᴅ
-ᴇx: <code>/fsub -1004646464646</code>
+ᴇx: ➥ set_fsub -100xxxxxxxx
 
 ɴᴏᴡ ɪᴛ's ᴅᴏɴᴇ.ɪ ᴡɪʟʟ ᴄᴏᴍᴘᴇʟ ʏᴏᴜʀ ᴜsᴇʀs ᴛᴏ ᴊᴏɪɴ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ/ɢʀᴏᴜᴘ, ᴀɴᴅ I ᴡɪʟʟ ɴᴏᴛ ᴘʀᴏᴠɪᴅᴇ ᴀɴʏ ғɪʟᴇs ᴜɴᴛɪʟ ʏᴏᴜʀ ᴜsᴇʀs ᴊᴏɪɴ ʏᴏᴜʀ ᴛᴀʀɢᴇᴛ ᴄʜᴀɴɴᴇʟ.
 
-ᴛᴏ ᴅɪsᴀʙʟᴇ ғsᴜʙ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ, sɪᴍᴘʟʏ sᴇɴᴅ <code>/del_fsub</code>
+ᴛᴏ ᴅɪsᴀʙʟᴇ ғsᴜʙ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ, sɪᴍᴘʟʏ sᴇɴᴅ ➥/del_fsub -100xxxxxxxx
 
 ᴛᴏ ᴄʜᴇᴄᴋ ɪғ ғsᴜʙ ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴏʀ ɴᴏᴛ, ᴜsᴇ <code>/show_fsub</code></b>"""
     ADMIN_CMD_TXT = """<b>- /m_grp this command is used to set grp link of movies and pm grp
@@ -159,9 +158,9 @@ Yᴏᴜʀ <u>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</u> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠ�
     PLAN_TEXT = """<b>ᴡᴇ ᴀʀᴇ ᴘʀᴏᴠɪᴅɪɴɢ ᴘʀᴇᴍɪᴜᴍ ᴀᴛ ᴛʜᴇ ʟᴏᴡᴇsᴛ ᴘʀɪᴄᴇs:
     
 2 ʀᴜᴘᴇᴇ ᴘᴇʀ ᴅᴀʏ 👻
-20 ʀᴜᴘᴇᴇꜱ ꜰᴏʀ 10 ᴅᴀʏꜱ
+20 ʀᴜᴘᴇᴇꜱ ꜰᴏʀ 10 ᴅᴀʏꜱ 😎
 50 ʀᴜᴘᴇᴇs ғᴏʀ ᴏɴᴇ ᴍᴏɴᴛʜ 😚
-99 ʀᴜᴘᴇᴇs ғᴏʀ ᴛᴡᴏ ᴍᴏɴᴛʜs 😗
+99 ʀᴜᴘᴇᴇs ғᴏʀ ᴛᴡᴏ ᴍᴏɴᴛʜs 😘
 139 ʀᴜᴘᴇᴇꜱ ꜰᴏʀ 3 ᴍᴏɴᴛʜs 😍
 
 ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ ʙᴜʏɪɴɢ ↡↡↡
@@ -172,21 +171,25 @@ Yᴏᴜʀ <u>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</u> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠ�
 
 ➥ ᴍᴀᴋᴇ ᴛʜɪs <a href=https://t.me/{}</a> ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 
-➥ ᴄʀᴇᴀᴛᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ᴀɴʏ sʜᴏʀᴛɴᴇʀ ʟɪᴋᴇ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ ᴛʜɪs ʙᴇsᴛ sʜᴏʀᴛɴᴇʀ <a href=https://ez4short.com/ref/movieurl>ez4short</a>.
+➥ ᴄʀᴇᴀᴛᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ᴀɴʏ sʜᴏʀᴛɴᴇʀ.
 
-➥ ᴛʜᴇɴ sᴇᴛ ʏᴏᴜʀ sʜᴏʀᴛɴᴇʀ ᴅᴇᴛᴀɪʟs ʙʏ ᴛʜɪs ꜰᴏʀᴍᴀᴛ 👇
+➥ ᴛʜᴇɴ ꜱᴇᴛ ʏᴏᴜʀ ꜱʜᴏʀᴛɴᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
+♻️ 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 : 👇
 
-<code>/set_shortner ez4short.com 837b7a64653d1b435f5e20a237840f1251d0c1ce</code>
+<blockquote>➥ /set_shortner zipshort.net 837b7a64653d1b435f5e20a237840f1251d0c1ce
 
-<code>/set_shortner_2 omnifly.in.net f287e7e9b1a23c34f542f77787d39607cae36a4d</code>
+➥ /set_shortner_2 MisterBrutal.Com f287e7e9b1a23c34f542f77787d39607cae36a4d
 
-<code>/set_shortner_3 shortslink.in 06b24eb6bbb025713cd522fb3f696b6d5de11354</code>
+➥ /set_shortner_3 Tnshort.net 06b24eb6bbb025713cd522fb3f696b6d5de1135
 
-<code>/set_tutorial https://t.me/bisal_files</code>
+➥ /set_tutorial https://t.me/MisterBrutal</blockquote>
 
-➥ ᴀᴅᴅ ʟᴏɢ ᴄʜᴀɴɴᴇʟ ʙʏ ᴛʜɪs ꜰᴏʀᴍᴀᴛ & ᴍᴀᴋᴇ sᴜʀᴇ ʙᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ʟᴏɢ ᴄʜᴀɴɴᴇʟ 👇
+➥ ᴀᴅᴅ ʟᴏɢ ᴄʜᴀɴɴᴇʟ & ᴍᴀᴋᴇ sᴜʀᴇ ʙᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ʟᴏɢ ᴄʜᴀɴɴᴇʟ.
 
-<code>/set_log_channel -100*******</code>
+<blockquote>➥ /set_log_channel -100*******
+
+➥ set_fsub -100xxxxxxxx
+</blockquote>
 
 ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀʟʟ ᴅᴇᴛᴀɪʟs ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
 
