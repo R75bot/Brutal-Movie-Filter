@@ -32,7 +32,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002070282646'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/c74e1ee08ed0fed54d3ab.jpg')
-START_IMG = environ.get('START_IMG', 'https://graph.org/file/e0bd56fc75136df1b46ed.jpg')
+START_IMG = environ.get('START_IMG', 'https://graph.org/file/8df5fc1c665cf1a838856.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002236540396'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002070282646'))
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
@@ -49,7 +49,7 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", '')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", '')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "900"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1800"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "80000"))
 
 #Filters Available In Bot
