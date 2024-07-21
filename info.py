@@ -83,7 +83,7 @@ if 'DYNO' in environ:
     ON_HEROKU = False
 else:
     ON_HEROKU = True
-URL = environ.get("URL", "https://aniflix.koyeb.app")
+URL = environ.get("URL", "")
 
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 PORT = os.environ.get('PORT', '5000')
