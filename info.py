@@ -83,7 +83,7 @@ if 'DYNO' in environ:
     ON_HEROKU = False
 else:
     ON_HEROKU = True
-URL = environ.get("URL", "file-stream-pro-73d663fa8e32.herokuapp.com/")
+URL = environ.get("URL", "")
 
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 PORT = os.environ.get('PORT', '5000')
