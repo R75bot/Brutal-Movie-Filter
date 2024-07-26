@@ -41,7 +41,7 @@ FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 #VerifiCation And Shortlink Information 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002054999365'))
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Movie_Url_link_downloader/17")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Geeky_Tutorials/4")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "d92f120bd61ee18e32d4a5e4f4cfad8d747eeec4")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'publicearn.com')
@@ -83,7 +83,7 @@ if 'DYNO' in environ:
     ON_HEROKU = False
 else:
     ON_HEROKU = True
-URL = environ.get("URL", "")
+URL = environ.get("URL", "https://file-stream-pro-73d663fa8e32.herokuapp.com/")
 
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 PORT = os.environ.get('PORT', '5000')
