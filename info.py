@@ -13,16 +13,16 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', '21257327'))
-API_HASH = environ.get('API_HASH', '1235c1fe45ebc4968d9e23bc93440549')
+API_ID = int(environ.get('API_ID', '26494161'))
+API_HASH = environ.get('API_HASH', '55da841f877d16a3a806169f3c5153d3')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 #Fill These Links
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6318243977 5192808332').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/ig_1venom")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002070282646'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Movies_Search_Groupp')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002099257639 -1001943771138').split()]
+USERNAME = environ.get('USERNAME', "https://telegram.me/af_mhakal")
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002213359277'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/af_movie_chat')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002246848988').split()]
 
 #Mongo DB Info
 DATABASE_URI = environ.get('DATABASE_URI', "")
@@ -30,10 +30,10 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002070282646'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002213359277'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/c74e1ee08ed0fed54d3ab.jpg')
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/8df5fc1c665cf1a838856.jpg')
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002236540396'))
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002246848988'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002070282646'))
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
