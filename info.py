@@ -13,19 +13,19 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', '26494161'))
-API_HASH = environ.get('API_HASH', '55da841f877d16a3a806169f3c5153d3')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '26563318'))
+API_HASH = environ.get('API_HASH', '0c56c2a16ea879f707bcfe077c4067f4')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7261935592:AAGZNeOKjokakaPR_0bux93xafYgGk11RSo')
 
 #Fill These Links
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6318243977 5192808332').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/af_mhakal")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002213359277'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/af_movie_chat')
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '-1002167810511').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/Chillxnow")
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002198122510'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+uIjL4lSnAMs2YmE1')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002246848988').split()]
 
 #Mongo DB Info
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://illegalbea:biteherepublic@cluster0.icclskc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -33,18 +33,18 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002213359277'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/c74e1ee08ed0fed54d3ab.jpg')
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/8df5fc1c665cf1a838856.jpg')
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002246848988'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002070282646'))
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002226106394'))
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS', '-1002169301347'))
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 
 #VerifiCation And Shortlink Information 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002054999365'))
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Geeky_Tutorials/4")
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002215078682'))
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/+HdOtbk-_Xlk5NDY9")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "d92f120bd61ee18e32d4a5e4f4cfad8d747eeec4")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'publicearn.com')
+SHORTENER_API = environ.get("SHORTENER_API", "4f10081d8a8f9148317422acdfdce44e5a7a33da")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'ziplinker.net')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", '')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "")
