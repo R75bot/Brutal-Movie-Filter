@@ -39,7 +39,7 @@ class script(object):
 ⚙️ ᴄʜɪʟʟɪɴɢ ᴏɴ : <a href="https://www.heroku.com/">ʜᴇʀᴏᴋᴜ</a>
 🍿 ʙʀᴀɪɴ ғᴜᴇʟᴇᴅ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
 🐍 ᴄᴏᴅɪɴɢ ᴍᴜsᴄʟᴇs : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ 3</a>
-😃 ᴍʏ ᴍᴀɴᴀɢᴇʀ : <a href="https://telegram.me/Ig_1Venom">Venom 😎</a>
+😃 ᴍʏ ᴍᴀɴᴀɢᴇʀ : <a href="https://telegram.me/movies_x_alpha">Owner 😎</a>
 </b>"""
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
 
@@ -102,7 +102,7 @@ User - {}"""
 ❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}</b>
 """
 
-    FILE_CAPTION = """<a href='https://t.me/MisterBrutal'><b>ɴᴀᴍᴇ : {file_name} </a>\n\n Jᴏɪɴ Hᴇʀᴇ Fᴏʀ Uᴘᴅᴀᴛᴇs:\n https://t.me/Geeky_Updates\n https://t.me/Geeky_Updates</b>"""
+    FILE_CAPTION = """<a href='https://t.me/Mg_networks'><b>ɴᴀᴍᴇ : {file_name} </a>\n\n Jᴏɪɴ Hᴇʀᴇ Fᴏʀ Uᴘᴅᴀᴛᴇs:\n https://t.me/mg_networks\n https://t.me/mg_networks</b>"""
 
     RESTART_TXT = """<b>
 📅 Dᴀᴛᴇ : <code>{}</code>
@@ -150,7 +150,7 @@ User - {}"""
 
     BUY_PLAN = """<b>➥ <u>ғɪʀsᴛ sᴛᴇᴘ</u> : ᴘᴀʏ ᴛʜᴇ ᴀᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴘʟᴀɴ ᴛᴏ ᴛʜɪs <code>misterbrutal@apl</code> ᴜᴘɪ ɪᴅ.
     
-➥ <u>secoɴᴅ sᴛᴇᴘ</u> : ᴛᴀᴋᴇ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴏғ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ᴀɴᴅ sʜᴀʀᴇ ɪᴛ ᴅɪʀᴇᴄᴛʟʏ ʜᴇʀᴇ: @Ig_1Venom
+➥ <u>secoɴᴅ sᴛᴇᴘ</u> : ᴛᴀᴋᴇ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴏғ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ᴀɴᴅ sʜᴀʀᴇ ɪᴛ ᴅɪʀᴇᴄᴛʟʏ ʜᴇʀᴇ: @movies_x_alpha
 
 ➥ <u>ᴀʟᴛᴇʀɴᴀᴛɪᴠᴇ sᴛᴇᴘ</u> : ᴏʀ ᴜᴘʟᴏᴀᴅ ᴛʜᴇ sᴄʀᴇᴇɴsʜᴏᴛ ʜᴇʀᴇ ᴀɴᴅ ʀᴇᴘʟʏ ᴡɪᴛʜ ᴛʜᴇ /bought ᴄᴏᴍᴍᴀɴᴅ.
 
@@ -296,5 +296,5 @@ Yᴏᴜ Cᴀɴ Dᴏɴᴀᴛᴇ 🎁 Aɴʏ Aᴍᴏᴜɴᴛ Yᴏᴜ Wɪsʜ Tᴏ S�
 
 <b> 📸 Sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ Hᴇʀᴇ Aɴᴅ I Wɪʟʟ Aᴅᴅ Yᴏᴜ As A Pʀᴇᴍɪᴜᴍ Mᴇᴍʙᴇʀ.
 
-Hᴇʀᴇ 👇 - @ig_1Venom </b> """
+Hᴇʀᴇ 👇 - @movies_x_alpha </b> """
 
