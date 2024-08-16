@@ -15,32 +15,32 @@ def is_enabled(value, default):
 #main variables
 API_ID = int(environ.get('API_ID', '26563318'))
 API_HASH = environ.get('API_HASH', '0c56c2a16ea879f707bcfe077c4067f4')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7261935592:AAGZNeOKjokakaPR_0bux93xafYgGk11RSo')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7265868502:AAGIHIFqLKPNR66J1S88m4CIA4Xn5EqlVgg')
 
 #Fill These Links
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '-1002167810511').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Chillxnow")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002198122510'))
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5291901172').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/movies_x_alpha")
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002188580270'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+uIjL4lSnAMs2YmE1')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002246848988').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002235887787').split()]
 
 #Mongo DB Info
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://illegalbea:biteherepublic@cluster0.icclskc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vedevloper:Hiteshwar@cluster0.wr5fg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002213359277'))
-QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/c74e1ee08ed0fed54d3ab.jpg')
-START_IMG = environ.get('START_IMG', 'https://graph.org/file/8df5fc1c665cf1a838856.jpg')
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002226106394'))
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS', '-1002169301347'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002172557556'))
+QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/e5da76cf3389a7378c408.jpg')
+START_IMG = environ.get('START_IMG', 'https://graph.org/file/bdbc2b1e3b0c3efedaec4.png')
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002227953693'))
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS', '-1002123926060'))
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 
 #VerifiCation And Shortlink Information 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002215078682'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002172557556'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/+HdOtbk-_Xlk5NDY9")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "4f10081d8a8f9148317422acdfdce44e5a7a33da")
@@ -63,13 +63,13 @@ REF_PREMIUM = 10
 PREMIUM_POINT = 1000
 
 #Fill Your Channel IDs 
-auth_channel = environ.get('AUTH_CHANNEL', '-1002013750265') #Your Force Subscribe channel Id 
+auth_channel = environ.get('AUTH_CHANNEL', '-1002085214143') #Your Force Subscribe channel Id 
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002130344978'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002106345803') #Requested Content Channel Id
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002174840368'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1002200124848') #Requested Content Channel Id
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
-UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002236540396')) #Payment Screenshot Sending Channel 
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002118903912')) #Movie Auto Udpate Channel
+UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1002242695494')) #Payment Screenshot Sending Channel 
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002197417326')) #Movie Auto Udpate Channel
 
 
 # Online Stream and Download
