@@ -92,40 +92,6 @@ from Script import script
 import streamlink
 import pyffmpeg
 
-# ... (rest of your code remains the same)
-
-# Stream Mode
-STREAM_MODE = bool(environ.get('STREAM_MODE', True))
-
-# Stream Options
-STREAM_OPTIONS = {
-    'stream_type': 'youtube',  # or 'bilibili', 'vimeo', etc.
-    'quality': '720p',  # or '1080p', '1440p', etc.
-    'format': 'mp4'  # or 'webm', etc.
-}
-
-def stream_movie(movie_url):
-    stream = streamlink.streams(movie_url, STREAM_OPTIONS)
-    if stream:
-        ffmpeg_cmd = f'ffmpeg -i {stream} -c:v libx264 -c:a aac -f flv rtmp://localhost:1935/live/{movie_name}'
-        subprocess.run(ffmpeg_cmd, shell=True)
-    else:
-        print(f"Error: Unable to stream {movie_url}")
-
-# ... (rest of your code remains the same)
-
-# Main function
-if __name__ == '__main__':
-    # ... (rest of your code remains the same)
-
-    # Stream movie
-    if STREAM_MODE:
-        movie_url = "https://example.com/movie.mp4"
-        movie_name = "Movie Name"
-        stream_movie(movie_url)
-
-    # ... (rest of your code remains the same)
-
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 PORT = os.environ.get('PORT', '5000')
 MAX_BTN = int(environ.get('MAX_BTN', '10'))
