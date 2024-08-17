@@ -148,7 +148,7 @@ User - {}"""
 ➥ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ /myplan
 ‼️ ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄʜᴇᴄᴋ ᴀʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs & ɪᴛ's ᴘʀɪᴄᴇs</b>"""
 
-    BUY_PLAN = """<b>➥ <u>ғɪʀsᴛ sᴛᴇᴘ</u> : ᴘᴀʏ ᴛʜᴇ ᴀᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴘʟᴀɴ ᴛᴏ ᴛʜɪs <code>misterbrutal@apl</code> ᴜᴘɪ ɪᴅ.
+    BUY_PLAN = """<b>➥ <u>ғɪʀsᴛ sᴛᴇᴘ</u> : ᴘᴀʏ ᴛʜᴇ ᴀᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴘʟᴀɴ ᴛᴏ ᴛʜɪs <code>upihere</code> ᴜᴘɪ ɪᴅ.
     
 ➥ <u>secoɴᴅ sᴛᴇᴘ</u> : ᴛᴀᴋᴇ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴏғ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ᴀɴᴅ sʜᴀʀᴇ ɪᴛ ᴅɪʀᴇᴄᴛʟʏ ʜᴇʀᴇ: @movies_x_alpha
 
@@ -182,7 +182,7 @@ Yᴏᴜʀ <u>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</u> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠ�
 
 ➥ /set_shortner_3 Tnshort.net 06b24eb6bbb025713cd522fb3f696b6d5de1135
 
-➥ /set_tutorial https://t.me/MisterBrutal</blockquote>
+➥ /set_tutorial https://t.me/</blockquote>
 
 ➥ ᴀᴅᴅ ʟᴏɢ ᴄʜᴀɴɴᴇʟ & ᴍᴀᴋᴇ sᴜʀᴇ ʙᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ʟᴏɢ ᴄʜᴀɴɴᴇʟ.
 
