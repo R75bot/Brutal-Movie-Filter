@@ -85,13 +85,6 @@ else:
     ON_HEROKU = True
 URL = environ.get("URL", "https://brutal-movie-filter-u8x3.onrender.com")
 
-import re
-import os
-from os import environ
-from Script import script
-import streamlink
-import pyffmpeg
-
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 PORT = os.environ.get('PORT', '5000')
 MAX_BTN = int(environ.get('MAX_BTN', '10'))
