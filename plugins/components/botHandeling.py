@@ -90,7 +90,7 @@ async def m_grp(client, message):
     links = []
     link = await client.ask(message.chat.id ,"send me your pm search grp link or send /skiplink to skip , default is mg_networks")
     if link.text == "/skiplink":
-        links.append("https://t.me/MisterBrutal")
+        links.append("https://t.me/+Hzj76oi7EghmODI9")
     else:
         if checkIfLinkIsValid(link.text):
             links.append(link.text)
@@ -98,7 +98,7 @@ async def m_grp(client, message):
             await message.reply("Invalid link")
     link1 = await client.ask(message.chat.id ,"send me your movies grp link or send /skiplink to skip . default is bisal_files")
     if link1.text == "/skiplink":
-        links.append("https://t.me/MisterBrutal")
+        links.append("https://t.me/+Hzj76oi7EghmODI9")
     else:
         if checkIfLinkIsValid(link1.text):
             links.append(link1.text)
