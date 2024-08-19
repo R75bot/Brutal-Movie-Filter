@@ -55,9 +55,9 @@ async def set_stream_link(client, message):
             await db.set_stream_link(link)
             await message.reply("Successfully set stream link!")
         else:
-            await message.reply("Usage: /stream https://t.me/MisterBrutal or http://t.me/Geeky_Updates")
+            await message.reply("Usage: /stream https://t.me/Mg_networks")
     except IndexError:
-        await message.reply("Usage: /stream https://t.me/MisterBrutal or http://t.me/Geeky_Updates")
+        await message.reply("Usage: /stream https://t.me/MG_networks")
         return
 
 
@@ -88,7 +88,7 @@ def checkIfLinkIsValid(link):
 @Client.on_message(filters.command("m_grp") & filters.user(ADMINS))
 async def m_grp(client, message):
     links = []
-    link = await client.ask(message.chat.id ,"send me your pm search grp link or send /skiplink to skip , default is bisal_files")
+    link = await client.ask(message.chat.id ,"send me your pm search grp link or send /skiplink to skip , default is mg_networks")
     if link.text == "/skiplink":
         links.append("https://t.me/MisterBrutal")
     else:
